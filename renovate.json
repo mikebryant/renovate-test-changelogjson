@@ -1,5 +1,5 @@
 {
-  "commitBody": "1: {{{logJSON}}}, 2: {{logJSON}}, 3: {logJSON}, 4: {{updateType}}, 5: {{{updateType}}}",
+  "commitBody": "1: {{{logJSON}}}, 2: {{logJSON}}, 3: {logJSON}, 4: {{updateType}}, 5: {{{updateType}}}, 6: {{logJSON.hasReleaseNotes}}, 7: {{logJSON.project}}",
   "extends": [
     "config:base",
     ":githubComToken(T/wpbNydLH2waox6RQH/Z9VoZWMCN5Sm+sDUJjeI3vmleeigb/lX1NgabSKJIy18SocdinEjcWDsP+9zuqZd4podKSljOC7mq4b/QZEJ97Yo+cKB9edbdvi0dMyJmsXtzJ3Xvtma3H2CCI06JjnBJi6ny7pz52CJldVbvd2mZDoODq13LqChXnBmVetLRZRZ5opBfdGqh1p7PJ/rqJWqmLA4X1zwOKnJXq1zS+npNnJ8pAWUqp+Qw6iFPwX3NibE3bHoMhEjqBzySY7RoOMh1FEXdklKhJC++AYEZ6k7Vq/YxDh24roEVCyvFCWuj4RkcNR1AMaUoTjCJd5UZL/66Q==)"
