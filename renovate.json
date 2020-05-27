@@ -1,5 +1,5 @@
 {
-  "commitBody": "1: {{{logJSON}}}, 2: {{logJSON}}, 3: {logJSON}, 4: {{updateType}}, 5: {{{updateType}}}, 6: {{logJSON.hasReleaseNotes}}, 7: {{logJSON.project.github}}, 8: {{upgrades}}, 9: {{releases}}, 10: {{this}}, 11: {{log this}}, 12: {{#each this}}    Key: {{@key}} Value = {{this}}{{/each}}",
+  "commitBody": "{{#if logJSON.hasReleaseNotes}}{{#each logJSON.versions as |release|}}{{# if release.releaseNotes}}#### [\`v{{{release.version}}}\`]({{{release.releaseNotes.url}}})\n\n{{{release.releaseNotes.body}}}{{/if}}{{/each}}{{/if}}",
   "extends": [
     "config:base"
   ]
